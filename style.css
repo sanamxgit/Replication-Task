@@ -1,3 +1,31 @@
+nav {
+    background-color: #ffffff; 
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
 *{
     background-color: #0c3b2e;
     font-family: 'Roboto', sans-serif;
@@ -26,6 +54,7 @@ img{
     margin-right: 0;
     float: right;
     width:40%;
+
 }
 .btn {
     cursor: pointer;
